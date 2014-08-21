@@ -2,8 +2,11 @@
 " pathogen settings
 " ------------------------
 
+set t_Co=256
 execute pathogen#infect()
 syntax on
+set background=light
+colorscheme solarized
 filetype plugin indent on
 
 " ------------------------
@@ -52,9 +55,9 @@ set ttyfast
 
 " handle long lines correctly
 set wrap
-set textwidth=79
+set textwidth=119
 set formatoptions=qrn1
-set colorcolumn=85
+set colorcolumn=120
 
 " ------------------------
 " key mapping
