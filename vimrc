@@ -5,7 +5,7 @@
 set t_Co=256
 execute pathogen#infect()
 syntax on
-set background=light
+set background=dark
 colorscheme solarized
 filetype plugin indent on
 
@@ -74,3 +74,11 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
+
+" ------------------------
+" Different Cursor Shapes depending on Current Mode
+" ------------------------
+
+" KDE Konsole & iTerm2 OSX
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
