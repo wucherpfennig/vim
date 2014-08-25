@@ -18,9 +18,10 @@ endif
 
 " php completion and settings
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
-let php_sql_query=1                                                                                        
+let php_sql_query=1                           
 let php_htmlInStrings=1
 
+let g:solarized_termcolors=256
 syntax enable
 set background=light
 colorscheme solarized
