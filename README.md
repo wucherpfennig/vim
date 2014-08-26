@@ -13,3 +13,12 @@ git submodule update --init --recursive
 ```
 git submodule update --recursive
 ```
+
+## Install ctags
+
+Depends on Unix installation
+
+```
+pacman -S ctags
+brew install ctags
+```
