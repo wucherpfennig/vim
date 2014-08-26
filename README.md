@@ -5,8 +5,12 @@ TBD
 
 ## Install all bundles
 
-```git submodule update --init --recursive
+```
+git submodule update --init --recursive
+```
 
 ## Update all bundles
 
-```git submodule update --recursive
+```
+git submodule update --recursive
+```
