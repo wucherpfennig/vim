@@ -101,7 +101,10 @@ inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 " NERDTree Toggle
-map <F2> :NERDTreeTabsToggle<CR>
+nmap <C-n> :NERDTreeTabsToggle<CR>
+
+" Tagbar Toggle
+nmap <C-y> :TagbarToggle<CR>
 
 " Natural Window Movement
 nnoremap <C-J> <C-W><C-J>
