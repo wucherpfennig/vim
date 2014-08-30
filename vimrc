@@ -44,9 +44,9 @@ set showmode
 set showcmd
 
 " tab settings
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 
 " better case sensitive search
@@ -124,3 +124,8 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 let g:SuperTabClosePreviewOnPopupClose = 1
 
+" NERDTree Settings
+let g:NERDTreeShowHidden=1
+
+" Tagbar Settings
+let g:tagbar_width = 55
