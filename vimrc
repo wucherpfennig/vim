@@ -23,8 +23,8 @@ let php_htmlInStrings=1
 
 let g:solarized_termcolors=256
 syntax enable
-"set background=dark
-"colorscheme solarized
+set background=light
+colorscheme solarized
 filetype plugin indent on
 
 " ------------------------
