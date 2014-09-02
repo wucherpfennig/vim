@@ -40,3 +40,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-wombat"]
+	path = bundle/vim-wombat
+	url = https://github.com/cschlueter/vim-wombat.git
