@@ -21,11 +21,14 @@ autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 let php_sql_query=1                           
 let php_htmlInStrings=1
 
-let g:solarized_termcolors=256
+set t_Co=256
+set term=screen-256color
 syntax enable
+" let g:solarized_termcolors=256
 " set background=dark
 " colorscheme solarized
-colorscheme distinguished
+" colorscheme distinguished
+colorscheme zenburn
 filetype plugin indent on
 
 " ------------------------
@@ -117,9 +120,13 @@ nnoremap <C-H> <C-W><C-H>
 " Different Cursor Shapes depending on Current Mode
 " ------------------------
 
-" KDE Konsole & iTerm2 OSX
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+if exists('$TMUX')
+    let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+    let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+    let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+    let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
 
 " Super Tab Settings
 let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
