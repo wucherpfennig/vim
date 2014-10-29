@@ -137,3 +137,6 @@ let g:NERDTreeShowHidden=1
 
 " Tagbar Settings
 let g:tagbar_width = 55
+
+" CtrlP Settings
+:let g:ctrlp_max_files=0
