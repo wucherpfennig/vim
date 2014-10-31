@@ -1,6 +1,6 @@
 # Overview
 
-TBD. Work in progress
+TBD. Work in progress.
 
 ## Install all bundles
 
