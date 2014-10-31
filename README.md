@@ -12,11 +12,14 @@ git submodule update --init --recursive
 
 ```
 git submodule update --recursive
+```
 
 ## Add a bundle
+
 ```
 cd ~/.vim
 git submodule add REPOSITORY
+```
 
 ## Install ctags
 
