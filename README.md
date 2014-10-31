@@ -1,6 +1,6 @@
 # Overview
 
-TBD
+TBD. Work in progress
 
 ## Install all bundles
 
@@ -18,7 +18,7 @@ git submodule update --recursive
 
 ```
 cd ~/.vim
-git submodule add REPOSITORY
+git submodule add REPOSITORY bundle/PLUGIN-NAME
 ```
 
 ## Install ctags
