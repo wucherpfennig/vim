@@ -59,6 +59,7 @@ set smartcase
 
 " show relative line numbers
 set relativenumber
+set number
 
 " enable auto indent
 set autoindent
