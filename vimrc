@@ -22,7 +22,6 @@ let php_sql_query=1
 let php_htmlInStrings=1
 
 set t_Co=256
-set term=screen-256color
 syntax enable
 " let g:solarized_termcolors=256
 " set background=dark
