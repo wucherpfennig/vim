@@ -23,11 +23,11 @@ let php_htmlInStrings=1
 
 set t_Co=256
 syntax enable
-" let g:solarized_termcolors=256
-" set background=dark
-" colorscheme solarized
+ let g:solarized_termcolors=256
+ set background=light
+ colorscheme solarized
 " colorscheme distinguished
-colorscheme zenburn
+" colorscheme zenburn
 filetype plugin indent on
 
 " ------------------------
